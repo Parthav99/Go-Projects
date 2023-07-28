@@ -50,3 +50,4 @@ func randomFormat() string {
     // Return one of the message formats selected at random.
     return formats[rand.Intn(len(formats))]
 }
+
