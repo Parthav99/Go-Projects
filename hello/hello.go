@@ -1,4 +1,4 @@
-package main
+package hello
 
 import (
     "fmt"
@@ -7,7 +7,7 @@ import (
     "example.com/greetings"
 )
 
-func main() {
+func Hello() {
     // Set properties of the predefined Logger, including
     // the log entry prefix and a flag to disable printing
     // the time, source file, and line number.
